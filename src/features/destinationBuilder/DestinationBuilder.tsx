@@ -118,7 +118,7 @@ export const DestinationBuilder = () => {
           values={values}
           errors={errors}
           submitting={submitting}
-          resultJson={resultJson ? JSON.stringify(resultJson) : null}
+          resultJson={resultJson}
           onChange={handleValueChange}
           onProviderChange={handleProviderSelect}
           onCancel={handleCancel}
